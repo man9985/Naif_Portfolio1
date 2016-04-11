@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'fff_tusjbold';
+    src: url('FFF_Tusj-webfont.eot');
+    src: url('FFF_Tusj-webfont.eot?#iefix') format('embedded-opentype'),
+         url('FFF_Tusj-webfont.woff') format('woff'),
+         url('FFF_Tusj-webfont.ttf') format('truetype'),
+         url('FFF_Tusj-webfont.svg#fff_tusjbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#header {
+  font-family: 'fff_tusjbold', cursive;
+  font-size: 36pt;
+}
+
+body {
+  background-color: black;
+}
+
+#body {
+  background-color: gray;
+  margin: auto;
+  opacity: 0.85;
+  width: 960px;
+  height: 1000px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Start Navigation styles*/
+#navigation {
+  height: 30px;
+  width: auto;
+  border: 2px solid orange;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navigation li {
+  display: inline-block;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+
+#navigation a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+#navigation a:hover {
+  color: orange;
+}
+/*End navigation styles*/
+
+#websites a {
+  text-decoration: none;
+  color: orange;
+}
+
+#websites a:hover {
+  background-color: black;
+}
+
+#websites ol {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.images {
+  display: inline-block;
+  border: solid black 2px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Start form styles */
+
+form {
+  margin: 0 auto;
+  width: 450px;
+  padding: 1em;
+  border: 1px solid black;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: .5em;
+}
+/*END from styles */
